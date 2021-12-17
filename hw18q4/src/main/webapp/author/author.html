@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AUTHOR</title>
+    <style>
+        body {
+            background: lightblue;
+        }
+
+        body > * {
+            padding: 1%;
+        }
+
+        header {
+            margin-top: 8%;
+            margin-right: 8%;
+            margin-left: 8%;
+            margin-bottom: 1%;
+            background: blue;
+            text-align: center;
+            color: lightblue;
+            font-family: Trebuchet MS, serif;
+        }
+
+        header h1 {
+            font-size: xx-large;
+        }
+
+        header p {
+            font-size: small;
+        }
+
+        main {
+            margin-right: 8%;
+            margin-left: 8%;
+            padding-left: 5%;
+            padding-right: 5%;
+            background: blue;
+        }
+
+        main a > * {
+            margin: 2%;
+            align-items: center;
+        }
+
+        main button, .btn {
+            width: 45%;
+            text-align: center;
+            color: blue;
+            font-size: medium;
+            font-weight: bolder;
+            padding: 3%;
+            margin: 2%;
+            border: none;
+            background: lightblue;
+            border-radius: 10px;
+            font-family: Trebuchet MS, serif;
+            cursor: pointer;
+        }
+
+        footer {
+            margin-left: 7%;
+        }
+
+        footer button {
+            width: 15%;
+            padding: 1%;
+            font-family: Trebuchet MS, serif;
+            text-align: center;
+            color: lightblue;
+            font-weight: bold;
+            border: none;
+            background: blue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Authors</h1>
+    <p>select...</p>
+</header>
+<main>
+    <a href="add-author.html">
+        <button>ADD</button>
+    </a>
+    <a href="del-author.html">
+        <button>DELETE</button>
+    </a>
+    <a href="edit-author.html">
+        <button>EDIT</button>
+    </a>
+    <a href="find-author.html">
+        <button>FIND</button>
+    </a>
+    <form action="ALL" method="get">
+        <input class="btn" type="submit" value="SHOW ALL"/>
+    </form>
+</main>
+<footer>
+    <a href="../index.jsp">
+        <button>Menu</button>
+    </a>
+</footer>
+</body>
+
+</html>

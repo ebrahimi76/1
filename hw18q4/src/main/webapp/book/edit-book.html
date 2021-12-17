@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>EDIT BOOK</title>
+    <style>
+        body {
+            background: lightblue;
+        }
+
+        body>* {
+            padding: 1%;
+        }
+
+        header {
+            margin-top: 8%;
+            margin-right: 8%;
+            margin-left: 8%;
+            margin-bottom: 1%;
+            background: blue;
+            text-align: center;
+            color: lightblue;
+            font-family: Trebuchet MS, serif;
+        }
+
+        header h1 {
+            font-size: xx-large;
+        }
+
+        main {
+            margin-right: 8%;
+            margin-left: 8%;
+            padding-left: 5%;
+            padding-right: 5%;
+            background: blue;
+        }
+
+        main form {
+            margin: 1%;
+            align-items: center;
+        }
+
+        .btn,
+        .btnF {
+            width: 20%;
+            text-align: center;
+            color: blue;
+            font-size: medium;
+            font-weight: bolder;
+            padding: 3%;
+            margin: 2%;
+            border: none;
+            background: lightblue;
+            border-radius: 10px;
+            font-family: Trebuchet MS, serif;
+            cursor: pointer;
+        }
+
+        .btnF {
+            margin-left: 15%;
+            background: darkblue;
+            color: lightblue;
+        }
+
+        .txt {
+            width: 12%;
+            text-align: center;
+            color: lightblue;
+            font-size: medium;
+            font-weight: bolder;
+            padding: 3%;
+            margin: 2%;
+            border: none;
+            background: blue;
+            border-radius: 10px;
+            font-family: Trebuchet MS, serif;
+        }
+
+        footer {
+            margin-left: 7%;
+        }
+
+        footer button {
+            width: 15%;
+            padding: 1%;
+            font-family: Trebuchet MS, serif;
+            text-align: center;
+            color: lightblue;
+            font-weight: bold;
+            border: none;
+            background: blue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>EDIT Book</h1>
+    </header>
+    <main>
+        <form action="EDIT" method="get">
+            <button class="txt">ID:</button>
+            <input class="btn" type="number" name="ID">
+            <button class="txt">Title:</button>
+            <input class="btn" type="text" name="Title">
+            <button class="txt">Price:</button>
+            <input class="btn" type="number" name="Price">
+            <button class="txt">ISBN:</button>
+            <input class="btn" type="number" name="ISBN">
+            <button class="txt">Genre:</button>
+            <input class="btn" type="number" name="Genre">
+            <button class="txt">Language:</button>
+            <input class="btn" type="number" name="Language">
+            <button class="txt">Author(s):</button>
+            <input class="btn" type="text" name="Author">
+            <input class="btnF" type="submit" value="EDIT">
+        </form>
+    </main>
+    <footer>
+        <a href="book.html">
+            <button>Back</button>
+        </a>
+    </footer>
+</body>
+
+</html>

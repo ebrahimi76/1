@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <!--<servlet>
+        <servlet-name>AddBook</servlet-name>
+        <servlet-class>com.library.hw18q4.application.book.AddBook</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddBook</servlet-name>
+        <url-pattern>/AddBook</url-pattern>
+    </servlet-mapping>-->
+
+    <servlet>
+        <servlet-name>DelBook</servlet-name>
+        <servlet-class>com.library.hw18q4.application.book.DelBook</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DelBook</servlet-name>
+        <url-pattern>/DelBook</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditBook</servlet-name>
+        <servlet-class>com.library.hw18q4.application.book.EditBook</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditBook</servlet-name>
+        <url-pattern>/EditBook</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoadBook</servlet-name>
+        <servlet-class>com.library.hw18q4.application.book.LoadBook</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoadBook</servlet-name>
+        <url-pattern>/LoadBook</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoadAllBook</servlet-name>
+        <servlet-class>com.library.hw18q4.application.book.LoadAllBook</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoadAllBook</servlet-name>
+        <url-pattern>/LoadAllBook</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddAuthor</servlet-name>
+        <servlet-class>com.library.hw18q4.application.author.AddAuthor</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddAuthor</servlet-name>
+        <url-pattern>/AddAuthor</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DelAuthor</servlet-name>
+        <servlet-class>com.library.hw18q4.application.author.DelAuthor</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DelAuthor</servlet-name>
+        <url-pattern>/DelAuthor</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditAuthor</servlet-name>
+        <servlet-class>com.library.hw18q4.application.author.EditAuthor</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditAuthor</servlet-name>
+        <url-pattern>/EditAuthor</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoadAuthor</servlet-name>
+        <servlet-class>com.library.hw18q4.application.author.LoadAuthor</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoadAuthor</servlet-name>
+        <url-pattern>/LoadAuthor</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoadAllAuthor</servlet-name>
+        <servlet-class>com.library.hw18q4.application.author.LoadAllAuthor</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoadAllAuthor</servlet-name>
+        <url-pattern>/LoadAllAuthor</url-pattern>
+    </servlet-mapping>
+</web-app>
